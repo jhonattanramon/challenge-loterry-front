@@ -1,0 +1,20 @@
+.providerModal{
+    width: 40%;
+    height: 100%;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0%;
+    z-Index: 9999;
+    box-shadow: -18px 0px 16px -11px rgba(0,0,0,0.20);
+    background:  #EFEFEF;
+    overflow: scroll;
+}
+
+.closeButtonModal{
+    width: 25px;
+    height: 25px;
+    border: none;
+    background-color: none;
+}
+

@@ -1,0 +1,141 @@
+.headerPageResultPrizeDraw{
+  flex: 1;
+  height: 100vh;
+  padding: 40px 10px;
+  background-color: var(--color-mega_sena);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.headerPageResultPrizeDraw > div  p{
+  color: white;
+}
+
+.headerPageResultPrizeDraw > div  h3 {
+  color: white;
+  text-transform: uppercase;
+}
+
+.mainPageResultPrizeDraw{
+    flex: 2;
+    background-color: var(--color-background);
+    position: relative;
+}
+
+.containerNumbersPrizeDraw{
+  width: 100%;
+  height: 100%;      
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-background)}
+
+.pageResultPrizeDraw{
+  display: flex;
+}
+
+.styleCurveHeader{
+  z-index: 0;
+  position: absolute;
+  width: 20%;
+  height: 100%;
+   right: 0;
+   top: 0;
+   border-top-left-radius: 100%;
+   border-bottom-left-radius: 100%;
+   background: #EFEFEF;
+}
+
+.containerContest{
+  display: flex;
+  flex-direction: column;
+}
+
+.containerContestValue{
+  display: flex;
+  align-items: center;
+}
+
+.dateContest{
+  display: flex;
+  align-items: center;
+}
+
+.buttonHistory{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width:35px;
+  height: 35px;
+  border: none;
+  background: none;
+  right: 10px;
+  top: 8px;
+  padding:5px;
+  border-radius: 20px;
+}
+
+.buttonHistory:hover{
+  background: white;
+}
+
+.modalResultPrizeDraw{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+
+@media screen and (max-width: 500px) {
+
+  .mainPageResultPrizeDraw{
+    flex: 2 ;
+    background-color: var(--color-background);
+}
+
+.pageResultPrizeDraw{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.styleCurveHeader{
+  z-index: 0;
+  position: absolute ;
+  width: 100%;
+  height: 20%;
+  top: 100%;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  border-top-right-radius: 100%;
+  border-top-right-radius: 100%;
+  border-bottom-left-radius: 0%;
+}
+
+.dateContest{
+  display: flex ;
+}
+
+.containerContest{
+  align-items: center;
+}
+
+.buttonHistory{
+  border: none;
+  background:none ;
+  width: 20px;
+  height: 20px;
+}
+
+}
+
+
+
+
+  

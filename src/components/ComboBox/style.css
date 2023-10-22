@@ -1,0 +1,12 @@
+.containerComboBox{
+    width: 200px;
+    height: 45px;
+    padding: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background: white;
+    border: none;
+}
+
+

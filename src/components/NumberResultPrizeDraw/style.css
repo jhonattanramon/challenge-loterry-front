@@ -1,0 +1,38 @@
+.containerNumbers{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 15px
+}
+
+.ball{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 7px 8px 22px -9px rgba(0,0,0,0.20);
+}
+
+.numberBall{
+color: #333;
+font-size: 27px;
+font-weight: 700;
+}
+
+
+@media screen and (max-width: 400px) {
+
+  .ball{
+    width: 50px;
+    height: 50px;
+  }
+
+  .number{
+    font-size: 13px;
+  }
+}

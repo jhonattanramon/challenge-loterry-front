@@ -1,0 +1,42 @@
+:root{
+  --color-backgroung: #EFEFEF ;
+  --color-mega_sena:#6BEFA3;
+  --color-quina: #8666EF;
+  --color-lotofacil: #DD7AC6;
+  --color-lotomania: #FFAB64;
+  --color-timemania: #5AAD7D;
+  --color-dia_da_soter: #BFAF83;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ body {
+  margin: 0;
+  background: #EFEFEF;
+   font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p{
+  color: "#333"
+}
+
+
+
+select{
+  font-family: 'Poppins', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button{
+  cursor: pointer;
+}
